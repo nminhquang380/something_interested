@@ -7,6 +7,9 @@ By the way, this repository will be my working notebook. I will put somethings I
 There are a lot of questions which are represented in the book, but I will list questions that I have no idea about them before.
 
 - Explain weakly supervised, unsupervised, supervised, semi-supervised, and active learning.
+    - Weakly supervised learning uses partially labeled or noisy data to train a model.
+    - Active learning has the algorithm which is able to choose which data it wants (which is most informative) instead of being given a fixed set of data for training. This algorithm minimize the amount of labeled data required to achieve a desired level of accuracy.
+ 
 - Empirical risk minimization.
     - What’s the risk in empirical risk minimization?
     - Why is it empirical?
