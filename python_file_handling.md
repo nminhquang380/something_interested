@@ -28,6 +28,7 @@ file.write("a new line")
 The most common modes are listed in the table. An important rule is that any w related mode will first truncate the file if it exists and then create a new file. Be careful with this mode if you don’t want to overwrite the file and use a append mode if possible.
 
 | mode | meaning |
+| ---- | ------- |
 |r	| open for reading (default)|
 |r+	| open for both reading and writing (file pointer is at the beginning of the file)|
 |w	| open for writing (truncate the file if it exists)|
