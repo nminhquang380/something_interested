@@ -44,3 +44,58 @@ The data science ecosystem consists of many open source and commercial options, 
 - For data science, popular program built with Scala is Apache Spark which includes Shark, MLlib, GraphX, and Spark Streaming.
 - Programs built for Data Science with JavaScript include TensorFlow.js and R-js.
 - One great application of Julia for Data Science is JuliaDB.
+
+## Module 3: Libraries, APIs, Datasets and Models
+### Libraries are a collection of functions and methods
+#### Python Libraries:
+1. Scientifics Computing Libraries:
+    - Pandas (Data Structures & Tools)
+    - Numpy (Arrays & Matrices), Pandas on top of NumPy
+2. Visualization:
+    - Matplotlib (plots & Graphs)
+    - Seaborn (heat maps, time series, violin plots)
+3. Machine Learning and Deep Learning
+    - Scikit-learn (Machine Learning)
+    - Keras (Deep Learning Neural Networks)
+    - TensorFlow (low-level framework for large scale)
+    - PyTorch (simpler)
+
+#### Apache Spark
+>> General-purpose cluster-computing framework: Pandas, Numpy, Sklearn
+- Scala libraries:
+    - Statistical Visualization: VEGAS
+    - Deep learning: Big DL
+- R libraries:
+    - Visualization: ggplot2
+
+### API
+- REST APIs (Representational State Transfer APIs)
+    - Allow to communicate through the internet. Also have a set of rules.
+    - Enable you to use resources like storage, data, and artificially intelligent algorithms.
+    - Use HTTP method.
+
+### Dataset
+- Collection of data
+- Data Structures
+    - Tabular Data (contain number of rows, ex: csv,..)
+    - Hierachical data, network data.
+    - Raw files.
+- Private data
+    - Confidential
+    - Private or personal infomation
+    - Commercially sensitive
+- Open data
+    - Publicly available
+    - Companies
+    - Scientific institutions
+    - Government
+- Community Data License Agreement
+
+### Machine Learning Models
+- Types of ML are Supervised, Unsupervised, and Reinforcement. 
+- Supervised learning comprises two types of models, regression and classification.
+- Deep learning refers to a general set of models and techniques that loosely emulate the way the human brain solves a wide range of problems.
+- The Model Asset eXchange is a free, open-source repository for ready-to-use and customizable deep-learning microservices.
+- MAX model-serving microservices are built and distributed on GitHub as open-source Docker images.
+- You can use Red Hat OpenShift, a Kubernetes platform, to automate deployment, scaling, and management of microservices.
+- Ml-exchange.org has multiple predefined models.
