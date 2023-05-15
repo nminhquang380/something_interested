@@ -1,5 +1,5 @@
 # Tools for Data Science
-## Module 1
+## Module 1: Overview of Data Science
 - The Data Science Task Categories include:
     - Data Management -  storage, management and retrieval of data
     - Data Integration and Transformation - streamline data pipelines and automate data processing tasks
@@ -30,3 +30,17 @@ The data science ecosystem consists of many open source and commercial options, 
 - Jupyter Notebooks provides an interactive environment for creating and sharing code, descriptive text, data visualizations, and other computational artifacts in a web-browser based interface.  
 - RStudio is an integrated development environment (IDE) designed specifically for working with the R programming language, which is a popular tool for statistical computing and data analysis.  
 
+## Module 2: Languages of Data Science
+- The popular languages are Python, R, SQL, Scala, Java, C++, and Julia.
+- For data science, you can use Python's scientific computing libraries like Pandas, NumPy, SciPy, and Matplotlib. 
+- Python can also be used for Natural Language Processing (NLP) using the Natural Language Toolkit (NLTK). 
+- Python is open source, and R is free software. 
+- R language’s array-oriented syntax makes it easier to translate from math to code for learners with no or minimal programming background.
+- Python is open-sourse, while R is free software. They are different.
+- SQL is different from other software development languages because it is a non-procedural language.
+- SQL was designed for managing data in relational databases. 
+- If you learn SQL and use it with one database, you can apply your SQL knowledge with many other databases easily.
+- Data science tools built with Java include Weka, Java-ML, Apache MLlib, and Deeplearning4.
+- For data science, popular program built with Scala is Apache Spark which includes Shark, MLlib, GraphX, and Spark Streaming.
+- Programs built for Data Science with JavaScript include TensorFlow.js and R-js.
+- One great application of Julia for Data Science is JuliaDB.
