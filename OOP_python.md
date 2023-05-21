@@ -125,3 +125,82 @@ labrador.eat()
 ```
 
 ## Python Encapsulation
+Encapsulation is one of the key features of object-oriented programming. Encapsulation refers to the bundling of attributes and methods inside a single class.
+
+It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
+
+In Python, we denote private attributes using underscore as the prefix i.e single _ or double __. For example:
+```
+class Computer:
+
+    def __init__(self):
+        self.__maxprice = 900
+
+    def sell(self):
+        print("Selling Price: {}".format(self.__maxprice))
+
+    def setMaxPrice(self, price):
+        self.__maxprice = price
+
+c = Computer()
+c.sell()
+
+# change the price
+c.__maxprice = 1000
+c.sell()
+
+# using setter function
+c.setMaxPrice(1000)
+c.sell()
+
+# Selling Price: 900
+# Selling Price: 900
+# Selling Price: 1000
+```
+
+In the above program, we defined a Computer class.
+
+We used __init__() method to store the maximum selling price of Computer. Here, notice the code `c.__maxprice = 1000`
+
+Here, we have tried to modify the value of `__maxprice` outside of the class. However, since `__maxprice` is a private variable, this modification is not seen on the output.
+
+As shown, to change the value, we have to use a setter function i.e `setMaxPrice()` which takes price as a parameter.
+
+## Polymorphism
+Polymorphism is another important concept of object-oriented programming. It simply means more than one form.
+
+That is, the same entity (method or operator or object) can perform different operations in different scenarios. Let's see an example:
+
+```
+class Polygon:
+    # method to render a shape
+    def render(self):
+        print("Rendering Polygon...")
+
+class Square(Polygon):
+    # renders Square
+    def render(self):
+        print("Rendering Square...")
+
+class Circle(Polygon):
+    # renders circle
+    def render(self):
+        print("Rendering Circle...")
+    
+# create an object of Square
+s1 = Square()
+s1.render()
+
+# create an object of Circle
+c1 = Circle()
+c1.render()
+
+# Rendering Square...
+# Rendering Circle...
+```
+
+In the above example, we have created a superclass: `Polygon` and two subclasses: `Square` and `Circle`. Notice the use of the `render()` method.
+
+The main purpose of the `render()` method is to render the shape. However, the process of rendering a square is different from the process of rendering a circle.
+
+Hence, the `render()` method behaves differently in different classes. Or, we can say render() is polymorphic.
