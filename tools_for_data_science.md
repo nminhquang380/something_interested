@@ -121,3 +121,35 @@ The data science ecosystem consists of many open source and commercial options, 
 - The Anaconda Navigator GUI can launch multiple applications.
 - Additional open-source Jupyter environments include JupyterLab, JupyterLite, VS Code, and Google Colaboratory. 
 - JupyterLite is a browser-based tool.
+
+## Module 5: RStudio & GitHub
+Learning Objectives:
+- Describe R acapabilities and RStudio environment.
+- Use the inbuilt R plot function.
+- Explain version control and describe the Git and GitHub environment.
+- Describe the purpose of source repositories and explain how GitHub satisfies the needs of a source repository.
+- explain how to sign up for a GitHub account and describe how to create a repository.
+- Demonstrate how to edit and upload files in GitHub.
+- Explain the purpose of branches and describe how to merge change into branches.
+
+### R and RStudio IDE
+
+- The capabilities of R and its uses in Data Science.
+- The RStudio interface for running R codes. 
+- Popular R packages for Data Science.
+- Popular data visualization packages in R.
+- Plotting with the inbuilt R plot function.
+- Plotting with ggplot.
+- Adding titles and changing the axis names using the ggtitle and lab’s function.
+
+### GitHub
+- A Distributed Version Control System (DVCS) keeps track of changes to code, regardless of where it is stored. 
+- Version control allows multiple users to work on the same codebase or repository, mirroring the codebase on their own computers if needed, while the distributed version control software helps manage synchronization amongst the various codebase mirrors.
+- Repositories are storage structures that:
+    - Store the code
+    - Track issues and changes
+    - Enable you to collaborate with others
+- Git is one of the most popular distributed version control systems. 
+- GitHub, GitLab and Bitbucket are examples of hosted version control systems.
+- Branches are used to isolate changes to code. When the changes are complete, they can be merged back into the main branch.
+- Repositories can be cloned to make it possible to work locally, then sync changes back to the original.
