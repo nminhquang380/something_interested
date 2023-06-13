@@ -3,8 +3,10 @@
 <p>Researchers spend a great deal of time reading research papers. However, this skill is rarely taught, leading to much
 wasted effort. This article outlines a practical and efficient three-pass method for reading research papers.</p>
 
-**Categories and Subject Descriptors**: A.1 [Introductory and Survey]
+**Categories and Subject Descriptors**: A.1 [Introductory and Survey].
+
 **General Terms**: Documentation.
+
 **Keywords**: Paper, Reading, Hints.
 
 ## Introduction
